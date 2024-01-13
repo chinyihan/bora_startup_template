@@ -1,0 +1,9 @@
+title: <TITLE>
+port: <PORT>
+plugins:
+    box: null
+    input: null
+    rest: null
+    button: null
+    text: null
+    hls: null
