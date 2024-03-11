@@ -1,9 +1,14 @@
 title: <TITLE>
 port: <PORT>
-plugins:
-    box: null
-    input: null
-    rest: null
-    button: null
-    text: null
-    hls: null
+redis:
+  host: ipepdvcompute1.ipe.kit.edu
+  port: 6379
+tabs:
+  config: true
+  main: true
+  notebook: http://ipepdvcompute1.ipe.kit.edu:8000
+timer:
+  client: 1000
+  plugins: adei
+  retention: 86400000
+  server: 60000
