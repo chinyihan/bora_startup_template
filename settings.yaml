@@ -9,6 +9,7 @@ tabs:
   notebook: http://ipepdvcompute1.ipe.kit.edu:8000
 timer:
   client: 1000
-  plugins: adei
+  plugins: 
+    - adei
   retention: 86400000
   server: 60000
